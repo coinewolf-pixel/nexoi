@@ -1,0 +1,16 @@
+{
+  "name": "nexorum-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^4.4.0",
+    "@supabase/supabase-js": "^2.43.4"
+  },
+  "devDependencies": {
+    "wrangler": "^3.60.0",
+    "@cloudflare/workers-types": "^4.20240614.0"
+  }
+}
